@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* navigation */
+.sect_1 {
+    background-color: #FAF8F4;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+header .logo_1 {
+    display: flex;
+    align-items: center;
+}
+.logo_2 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.nav_1 {
+    margin-left: 85%;
+}
+.nav_1 ul {
+    display: flex;
+    list-style: none;
+}
+.nav_1 ul a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+    color: #999;
+}
+.nav_1 ul a:hover{
+    background-color: #f26440;
+    color: #999;
+    border-radius: 5px;
+}
+
+/* ACCUEIL */
+
+.accueil {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    position: relative;
+}
+.accueil .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.accueil .right h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 35px 0;
+    text-transform: capitalize;
+}
+.accueil .right p {
+    margin: 25px 0;
+    color: #999;
+    letter-spacing: 0.5px;
+    height: 25px;
+}
+.accueil .left {
+    width: 45%;
+}
+.accueil .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.stat {
+    position: absolute;
+    bottom: -50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    padding: 20px 10%;
+}
+.stat span {
+    text-align: center;
+}
+.stat span h2 {
+    color: #f26440;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.stat span p {
+    color: #999;
+    text-transform: capitalize;
+}
+
+/* service */
+#service {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    padding: 20px 5%;
+}
+#service .cont_img {
+    width: 55%;
+    height: 400px;
+}
+#service .cont_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#service .contenue {
+    width: 40%;
+}
+#service .contenue h1 {
+    margin: 16px 0;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 35px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+#service .contenue h2 {
+    margin: 15px 0;
+    color: #333;
+}
+#service .contenue p {
+    color: #999;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    height: 25px;
+}
+
