@@ -7,25 +7,23 @@
     <title>Décoration Immobilier</title>
 </head>
 <body>
+    
     <!-- navigation -->
-    <section class="sect_1">
      <header>
-        <div class="logo_1">
-            <a href="#" class="logo_2">SenDeco</a>
-            <div class="nav_1">
-                <ul>
-                    <li><a href="#index.html">ACCUEIL</a></li>
-                    <li><a href="#service">SERVICES</a></li>
-                    <li><a href="#">PROJET</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
-        </div>
-     </header>
-    </section>
+     <nav class="nav_1">
+        <h1>SenDeco<span style="color: #f26440;">.</span></h1>
+        <ul>
+            <li><a href="#accueil">ACCUEIL</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#decoration">DECORATIONS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    </header> 
+    
 
     <!-- ACCUEIL -->
-     <section class="accueil">
+     <section id="accueil">
         <div class="left">
             <img src="images/img1.jpg">
         </div>
@@ -62,5 +60,89 @@
         </div>
      </section>
 
+
+
+      <!-- decoration -->
+    <section id="decoration">
+        <h1>Liste de Decoration</h1>
+        <div class="deco-list">
+            <div class="deco">
+                <img src="images/deco1.jpg">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing. <br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+            <div class="deco">
+                <img src="images/deco4.png">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing.<br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+            <div class="deco">
+                <img src="images/deco3.jpg">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing.<br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+            <div class="deco">
+                <img src="images/deco4.png">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing.<br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+            <div class="deco">
+                <img src="images/deco5.jpg">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing.<br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+            <div class="deco">
+                <img src="images/deco6.jpg">
+                <p>decoration</p>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing.<br></span>
+                <button class="btn_deco">Commandez la deco</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact">
+        <form>
+            <h4>CONTACTEZ-NOUS</h4>
+            <hr>
+            <div class="form2">
+                <div>
+                    <label>Nom</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Prenom</label>
+                    <input type="text">
+                </div>
+            </div>
+            <label>Adresse Mail</label>
+            <input type="email">
+            <label>Tel</label>
+            <input type="number" name="" id="">
+            <label>Message</label>
+            <textarea name="" id=""></textarea>
+            <input type="submit" value="Envoyer" class="form3">
+        </form>
+    </section>
+
+
+     <!-- Pied de page -->
+
+     <footer>
+        <div class="footer-1">
+            <h1>Bien Immobilier</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum. Vero, explicabo illum. Repudiandae.</p>
+        </div>
+        <div class="footer-2">
+            <p>Copyright &copy;2024 Sali Dev. Designed by <span>Assane</span></p>
+        </div>
+        
+    </footer>
 </body>
 </html>
